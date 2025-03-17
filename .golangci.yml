@@ -1,0 +1,32 @@
+# v1.63.4
+# Please don't remove the first line. This is a must until the reusable GitHub workflow is refactored.
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
+  exclude-use-default: false
+
+linters:
+  enable-all: true
+  disable:
+    - gochecknoinits
+    - wrapcheck
+    - varnamelen
+    - exhaustruct
+    - exportloopref
+    - gochecknoinits
+    - ireturn
+
+linters-settings:
+  depguard:
+    rules:
+      prevent_accidental_imports:
+        allow:
+          - $gostd
+          - github.com/gorilla/websocket
+          - github.com/rs/xid
+          - github.com/stretchr/testify/require
+          - github.com/grafana/sobek
+          - github.com/grafana/k6
+          - github.com/sirupsen/logrus
+          - github.com/grafana/xk6-plugin
