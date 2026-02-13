@@ -2,7 +2,7 @@ module github.com/grafana/xk6-plugin
 
 go 1.24.0
 
-toolchain go1.24.13
+toolchain go1.26.0
 
 require (
 	github.com/gorilla/websocket v1.5.3
