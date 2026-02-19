@@ -6,7 +6,7 @@ toolchain go1.24.13
 
 require (
 	github.com/gorilla/websocket v1.5.3
-	github.com/grafana/sobek v0.0.0-20241024150027-d91f02b05e9b
+	github.com/grafana/sobek v0.0.0-20260219184149-bdae4a158e94
 	github.com/rs/xid v1.6.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.10.0
@@ -16,7 +16,7 @@ require (
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/dlclark/regexp2 v1.11.4 // indirect
+	github.com/dlclark/regexp2 v1.11.5 // indirect
 	github.com/evanw/esbuild v0.24.2 // indirect
 	github.com/fatih/color v1.18.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
