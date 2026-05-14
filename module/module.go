@@ -7,8 +7,8 @@ import (
 
 	"github.com/grafana/sobek"
 	"github.com/grafana/xk6-plugin/internal/plugin"
-	"go.k6.io/k6/js/modules"
-	"go.k6.io/k6/js/promises"
+	"go.k6.io/k6/v2/js/modules"
+	"go.k6.io/k6/v2/js/promises"
 )
 
 // ImportPath contains module's JavaScript import path.

@@ -8,7 +8,7 @@ import (
 	"regexp"
 
 	"github.com/grafana/xk6-plugin/module"
-	"go.k6.io/k6/js/modules"
+	"go.k6.io/k6/v2/js/modules"
 )
 
 func registerPlugin(plugin string) {
